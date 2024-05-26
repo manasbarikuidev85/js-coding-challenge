@@ -1,4 +1,4 @@
-//How to conver string to object in using javascrit ?
+//Q- How to conver string to object in using javascrit ?
 
 let inputString ="my name is manas kumar barik";
 let obj ={};
@@ -13,7 +13,7 @@ function strToObj(data){
 let result = strToObj(inputString.split(" "));
 console.log(result);
 
-//How to reverse a string using javascripts 
+//Q- How to reverse a string using javascripts 
 function reverseString(str){
 let reversed ="";
 for(let i =str.length-1; i<=0 ; i--){
@@ -24,6 +24,20 @@ return reversed;
 let orinalString ="bangalore";
 const result =reverseString(orinalString);
 console.log(result);
+
+//Q-How to compaire two string using javascripts ?
+
+let a ="manas";
+let b ="bari";
+if(a.length === b.length){
+    if(a===b){
+        console.log("is Equal")
+    }else{
+        console.log("not Equal")
+    }
+    
+}else{
+    console.log("Length is something differnet")
 
 
 
