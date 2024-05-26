@@ -68,6 +68,17 @@ return arr.reduce((acc, crrV)=>{
 let result =sum(araayNumber);
 console.log(result);
 
+//Q-How to find minimum and maximum value in given array ?
+
+let array =[1,2,3,4,5,6,7,8];
+function findMaximumValue(arr){
+return arr.reduce((acc, currV)=>{
+ return acc < currV ? acc:currV;
+})
+}
+let maximumValue =findMaximumValue(array);
+console.log(minimValue);
+
 
 
 
