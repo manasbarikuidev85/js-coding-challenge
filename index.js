@@ -30,7 +30,7 @@ console.log(result);
 let a ="manas";
 let b ="bari";
 if(a.length === b.length){
-    if(a===b){
+    if(a.toLowerCase() === b.toLowerCase(){
         console.log("is Equal")
     }else{
         console.log("not Equal")
