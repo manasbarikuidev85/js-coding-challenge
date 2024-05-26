@@ -12,3 +12,31 @@ function strToObj(data){
 }
 let result = strToObj(inputString.split(" "));
 console.log(result);
+
+//How to reverse a string using javascripts 
+function reverseString(str){
+let reversed ="";
+for(let i =str.length-1; i<=0 ; i--){
+reversed = reversed +str[i];
+}
+return reversed;
+}
+let orinalString ="bangalore";
+const result =reverseString(orinalString);
+console.log(result);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
