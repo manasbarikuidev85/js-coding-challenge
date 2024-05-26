@@ -148,6 +148,21 @@ function zeroMoveToEnd(arr){
 zeroMoveToEnd(inputArray)
 console.log(inputArray);
 
+//Q-write aprograme to reverse a string in sentence wyas using javascripts ?
+
+let stringWord ="This my country";
+let newArray = stringWord.split(" ");
+let array = [];
+//using map() methos 
+newArray.map((item,i)=>{
+    let newString =[];
+    for(let i =item.length-1; i >=0; i--){
+        newString = newString +item[i];
+    }
+    array.push(newString);
+})
+console.log(array.toString().replaceAll(',',' '));
+
 
 
 
