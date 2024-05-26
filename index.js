@@ -107,6 +107,14 @@ console.log(counter.getvalue()); // 0
 counter.increment();
 console.log(counter.getvalue()); // 1
 
+Q- Another Example of Closure ?
+
+const privateSecret=()=>{
+    const secret ="foo";
+return =()=>secret;
+};
+const getSecret =privateSecret();
+console.log(getSecret()); //foo
 
 
 
