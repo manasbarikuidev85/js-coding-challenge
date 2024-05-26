@@ -124,6 +124,30 @@ const multiply =(num1)=>{
 }
 console.log(multiply(2)(3)); //6
 
+//Q-write a code for an Array which conatain only binary number(either 1 or 0) move to all the zero at the end , 
+//do not use sort or filter methods , Here is the below code ?
+//output =[1,1,1,0,0,0];
+//given Array =[1,0,0,0,1,0,1];
+
+let inputArray =[1,0,0,0,1,0,1];
+function zeroMoveToEnd(arr){
+    let index = 0;
+    for(let i= 0; i< arr.length; i++){
+        if(arr[i]===1){
+            arr[index] =1;
+            index++;
+        }
+        
+    }
+    while(index < arr.length){
+        arr[index]=0;
+        index++;
+    }
+    return arr;
+}
+zeroMoveToEnd(inputArray)
+console.log(inputArray);
+
 
 
 
