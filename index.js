@@ -27,18 +27,18 @@ console.log(result);
 
 //Q-How to compaire two string using javascripts ?
 
-let a ="manas";
-let b ="bari";
-if(a.length === b.length){
-    if(a.toLowerCase() === b.toLowerCase(){
-        console.log("is Equal")
-    }else{
-        console.log("not Equal")
-    }
-    
-}else{
-    console.log("Length is something differnet")
+let empName1 ="manas";
+let empName2 ="kumar";
 
+if(empName1.length === empName2.length){
+    if(empName1.toLowerCase() === empName2.toLowerCase()){
+        console.log("String is Equal")
+    }else{
+        console.log("String are not Equal")
+    }
+}else{
+    console.log("Length is something different")
+}
 
 
 
