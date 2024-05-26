@@ -116,6 +116,14 @@ return =()=>secret;
 const getSecret =privateSecret();
 console.log(getSecret()); //foo
 
+//Q-what is currying function ?
+const multiply =(num1)=>{
+	return(num2)=>{
+		return num1 * num2;
+}
+}
+console.log(multiply(2)(3)); //6
+
 
 
 
