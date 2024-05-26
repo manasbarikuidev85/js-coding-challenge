@@ -40,6 +40,23 @@ if(empName1.length === empName2.length){
     console.log("Length is something different")
 }
 
+/Q -How to reverse a number or string number ?
+//12345 to 54321
+
+let num =8309780601;
+let str =num.toString();
+let reverseString ="";
+for(let i=str.length-1; i>=0; i--){
+    reverseString = reverseString +str[i];
+}
+console.log(reverseString);
+
+let num ="12345678";
+let reverseString ="";
+for(let i=num.length-1; i>=0; i--){
+    reverseString = reverseString +num[i]; 
+}
+console.log(reverseString);
 
 
 
