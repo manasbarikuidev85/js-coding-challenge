@@ -79,7 +79,15 @@ return arr.reduce((acc, currV)=>{
 let maximumValue =findMaximumValue(array);
 console.log(maximumValue);
 
+//Q- Coding Example null and undefined in js 
 
+let var1;
+console.log(var1);     //undefined
+console.log(typeof var1); //undefined
+
+let var2 =null;
+console.log(var2); //null value
+console.log(typeof var2);//object
 
 
 
