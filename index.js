@@ -89,6 +89,24 @@ let var2 =null;
 console.log(var2); //null value
 console.log(typeof var2);//object
 
+//Q-Closure coding example ?
+function privateCounter() {
+    let count = 0;
+    return {
+        increment(value = 1) {
+            count = count + value;
+        },
+        getvalue() {
+            return count;
+        }
+    };
+}
+
+let counter = privateCounter();
+console.log(counter.getvalue()); // 0
+counter.increment();
+console.log(counter.getvalue()); // 1
+
 
 
 
