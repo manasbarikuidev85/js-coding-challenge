@@ -40,7 +40,7 @@ if(empName1.length === empName2.length){
     console.log("Length is something different")
 }
 
-/Q -How to reverse a number or string number ?
+//Q -How to reverse a number or string number ?
 //12345 to 54321
 
 let num =8309780601;
