@@ -77,7 +77,7 @@ return arr.reduce((acc, currV)=>{
 })
 }
 let maximumValue =findMaximumValue(array);
-console.log(minimValue);
+console.log(maximumValue);
 
 
 
