@@ -233,7 +233,15 @@ return charCount;
 let charaterCount =countCharater(string);
 console.log(charaterCount);
 
-
+//Q- write a function to sum of an array ?
+let array =[10,20,30,40];
+function sumOfArray(arr){
+return arr.reduce((acc, currv)=>{
+	return acc+currv;
+},0)
+}
+let sumArray =sumOfArray(array);
+console.log(sumArray); //100
 
 
 
