@@ -243,5 +243,14 @@ return arr.reduce((acc, currv)=>{
 let sumArray =sumOfArray(array);
 console.log(sumArray); //100
 
+//Q-Write a function to check if two strings are anagrams of each other.
+function areAnagram(str1, str2){
+let sortedString1 =str1.split("").sort().join("");
+let sortedString2 =str2.split("").sort().join("");
+return sortedString1 === sortedString2
+}
+console.log(areAnagram("listen", "silent"));
+console.log(areAnagram("hello","world"));
+
 
 
