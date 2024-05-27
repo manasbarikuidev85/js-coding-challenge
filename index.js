@@ -182,6 +182,19 @@ function fizzBuzz(){
 }
 fizzBuzz()
 
+//Q-Removed duplicate in given array ?
+
+let array =[1,1,2,2,3,4,4,5,6,7,8];
+
+function removedDuplicate(arr){
+    return arr.filter((ele,index,arr)=>{
+        return arr.indexOf(ele)===index;
+    })
+}
+
+let duplecateValue =removedDuplicate(array);
+console.log(duplecateValue);
+
 
 
 
