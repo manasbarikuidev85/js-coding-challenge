@@ -221,6 +221,19 @@ return null;
 }
 console.log(firstNonRepeteingChar(string));
 
+//Q-Write a function to count the number of occurrences of each character in a string.
+let string ="bangalore"
+function countCharater(str){
+	let charCount ={};
+for(let char of str){
+	charCount[char] = charCount[char] +1 || 1 ;
+}
+return charCount;
+}
+let charaterCount =countCharater(string);
+console.log(charaterCount);
+
+
 
 
 
