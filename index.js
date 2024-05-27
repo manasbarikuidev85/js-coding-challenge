@@ -195,9 +195,11 @@ function removedDuplicate(arr){
 let duplecateValue =removedDuplicate(array);
 console.log(duplecateValue);
 
-
-
-
+//Q-short cut ways for removed duplicate in given array 
+function removeDuplicate(arr){
+    return ([...new Set(arr)]);
+}
+console.log(removeDuplicate(array));
 
 
 
