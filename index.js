@@ -201,6 +201,14 @@ function removeDuplicate(arr){
 }
 console.log(removeDuplicate(array));
 
+//Q-How to flatten an nested Array ?
+
+let flattenArray =[1, [2, [3, [4]], 5]];
+function flattenNestedArray(arr){
+return arr.flat(Infinity);
+}
+console.log(flattenNestedArray(flattenArray));
+
 
 
 
