@@ -252,5 +252,25 @@ return sortedString1 === sortedString2
 console.log(areAnagram("listen", "silent"));
 console.log(areAnagram("hello","world"));
 
+//Q-How to flatten Array using js logic ?
+
+function flattenArray(arr){
+    let result =[];
+    function flatten(element){
+        if(Array.isArray(element)){
+            for(let i=0; i< element.length; i++){
+                flatten[i];
+            }
+        }else{
+            result.push(element)
+        }
+    }
+    flatten(arr)
+    return result;
+}
+const input =[1,2[3,4[5,null,6[7,{}[8]]]]];
+const flttend =flattenArray(input)
+console.log(flttend)
+
 
 
