@@ -323,6 +323,16 @@ return mode;
 }
 console.log(findMode([1,2,2,3,4,2,4,5,6,3,6,7,8,9,5,6,7]));
 
+//Q-write a recursive function find factorial of 5 in javascripts ?
+
+const factorial =(num)=>{
+    if(num===1){
+        return 1;
+    }else{
+        return num * factorial(num-1);
+    }
+}
+console.log(factorial(5));
 
 
 
