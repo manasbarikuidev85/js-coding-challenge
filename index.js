@@ -305,6 +305,24 @@ console.log(counter1());
 console.log(counter1());
 console.log(counter2());
 
+//Q- Write a function to find out maxMimum repeted array and return a result maxmuim repeted value ?
+function findMode(arr){
+    let counts ={};
+    let maxNum =0;
+    let mode;
+    
+    for(let elements of arr){
+    counts[elements] =(counts[elements] || 0)+1;
+    if(counts[elements] > maxNum){
+        maxNum = counts[elements];
+        mode =elements;
+    }
+}
+console.log(counts)
+return mode;
+}
+console.log(findMode([1,2,2,3,4,2,4,5,6,3,6,7,8,9,5,6,7]));
+
 
 
 
