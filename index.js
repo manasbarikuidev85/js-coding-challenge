@@ -352,4 +352,13 @@ const generateBarChart =(arr)=>{
 
 console.log(generateBarChart([5,3,9,2]));
 
+//Q- Alternative Way in above question in js ?
+
+const generateBarChar =(arr)=>{
+    return arr.map((curElem, index)=>{
+        return `${index + 1}:${"*".repeat(curElem)}`
+    }).join("\n")
+}
+
+console.log(generateBarChar([3,6,9,12]));
 
