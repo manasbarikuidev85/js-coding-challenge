@@ -334,5 +334,22 @@ const factorial =(num)=>{
 }
 console.log(factorial(5));
 
+//Q-create a function to generateBarChart that taken an array of number and generate a sample text-base bar chart using js logic ?
+
+const generateBarChart =(arr)=>{
+    const newArr =arr.map((curEle, index)=>{
+        let star ="";
+        let number =0;
+        while(number < curEle){
+            star = star + "*";
+            number ++;
+            
+        }
+        return `${index +1}:${star}`;
+    })
+    return newArr.join("\n")
+}
+
+console.log(generateBarChart([5,3,9,2]));
 
 
